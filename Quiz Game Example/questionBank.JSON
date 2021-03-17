@@ -1,0 +1,48 @@
+[
+
+    {
+        questionID: 0000,
+        questionText: "How should you temporarily hide a cell in a table view?"
+        possibleAnswers: [
+        "Tell the table view to deleteRows (at:with:) to remove the cell.",
+        "Set its height property to 0.",
+        "Set its hidden property to true.",
+        "Return 0 from tableView (_:heightForRowAt:) for the cell's index path."
+        ],
+        correctAnswers: [false, false, false, true]
+        fillInBlankAnswer: nil
+    }
+    
+    {
+        questionID: 0001,
+        questionText: "What are two characteristics of the string type?(Check all that apply)"
+        possibleAnswers: [
+        "String instances can be concatenated with the + operator.",
+        "String is a class.",
+        "String instances can interpolate string representations of other expressions.",
+        "String instances can only be 128 characters long."
+        ],
+        
+        correctAnswers: [false, true, false, true, false]
+        fillInBlankAnswer: nil
+    }
+    
+    
+    {
+        questionID: 0002,
+        questionText: "Complete the function call in this code snippet."
+        "func moveItem(atPath path: String) {"
+            
+           " }"
+        possibleAnswers: [
+            "moveItem(        :"/tmp/abc.txt")"
+        ],
+        
+        correctAnswers: nil
+        fillInBlankAnswer:"atPath"
+        
+    }
+    
+    
+    
+]
