@@ -9,8 +9,8 @@ import Foundation
 
 struct Answer {
     var possibleAnswers: [Answer]
-    var fillInBlankAnswer: String?
-    var correctAnswer: Bool?
+    var fillInBlankAnswer: String? = nil
+    var correctAnswer: Bool? = nil
     
 }
 
